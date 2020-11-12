@@ -48,7 +48,12 @@ section.descricao{
     transform:translateY(-50%);
     color: white;
 }
-video{
-    width: 480px;
-    height: 250px;
+.whatsapp{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.whatsapp img{
+    width: 50px;
+    
 }

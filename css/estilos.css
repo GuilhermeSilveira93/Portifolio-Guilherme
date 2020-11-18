@@ -17,6 +17,12 @@ html , body{
     position: fixed;
     background-color: black;
 }
+.lateral h1,p.menu{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    transform:translateX(4%);
+}
 .poslateral{
     position: relative;
     top: 50%;
@@ -44,16 +50,11 @@ html , body{
 
 section.descricao{
     position: relative;
-    top:50%;
+    top:40%;
     transform:translateY(-50%);
     color: white;
 }
-.whatsapp{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-}
-.whatsapp img{
-    width: 50px;
-    
+a{
+    text-decoration: none;
+    color: white;
 }

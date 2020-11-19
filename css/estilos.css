@@ -58,3 +58,170 @@ a{
     text-decoration: none;
     color: white;
 }
+.form{
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top: 30%;
+    float: right;
+    border-width: 12px;
+    border-color: #6e6e6e ;
+    border-style: solid;
+    background-color: rgb(29, 29, 29);
+    background-clip: padding-box;
+    /*background-origin tem o mesmo conceito porém serve para imagens.*/
+}
+.form h2{
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+.input-container{
+    margin-top: 20px;
+}
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.form p{
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 20px 0;
+}
+.input-container input{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ddd;
+}
+.form .input-submit-container{
+    text-align: center;
+}
+.form input[type=submit]:hover{
+	background-color: #323665;
+}
+.form input[type=submit]{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #b8b8b8;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    border-bottom:5px solid #ffffff ;
+    cursor:pointer;
+    box-shadow: 3px 3px 10px black;
+}
+@media screen and (max-width: 880px){
+    .form{
+        top: 35%;
+}
+@media screen and (max-width: 645px){
+.lateral{
+    width: 100%;
+    height: 20%;
+    position: static;
+    background-color: black;
+}
+.lateral h1,p.menu{
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    transform:translateX(0);
+}
+.poslateral{
+    position: static;
+    top: 0;
+    transform:translateY(0);
+}
+.foto img{
+    width: 100%;
+    min-width: 50px;
+    border:8px solid gray;
+    border-radius: 40%;
+}
+.foto{text-align: left;}
+.content{
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y:auto;
+    padding:0 3%;
+    background-image: none;
+    background-color: black;
+}
+
+section.descricao{
+    position: static;
+    top:40%;
+    transform:translateY(-50%);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.form{
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    position: static;
+    top: 30%;
+    float: right;
+    border-width: 12px;
+    border-color: #6e6e6e ;
+    border-style: solid;
+    background-color: rgb(29, 29, 29);
+    background-clip: padding-box;
+    /*background-origin tem o mesmo conceito porém serve para imagens.*/
+}
+.form h2{
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+.input-container{
+    margin-top: 20px;
+}
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.form p{
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 20px 0;
+}
+.input-container input{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ddd;
+}
+.form .input-submit-container{
+    text-align: center;
+}
+.form input[type=submit]:hover{
+	background-color: #323665;
+}
+.form input[type=submit]{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #b8b8b8;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    border-bottom:5px solid #ffffff ;
+    cursor:pointer;
+    box-shadow: 3px 3px 10px black;
+}
